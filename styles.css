@@ -182,7 +182,7 @@ body, html {
 }
 .pricing-card {
     flex: 0 0 auto; /* Allow cards to shrink as needed */
-    margin-right: 20px; 
+    margin-right: 15px; 
     border: 1px solid #ddd;
     border-radius: 10px;
     background-color: #fff;
