@@ -22,6 +22,30 @@ body, html {
     margin-right: 8px;
 }
 
+#pg-logo{
+    height: 90px;
+}
+
+@media (max-width: 768px) {
+    #pg-logo {
+        height: 70px;
+    }
+}
+
+/*(landscape phones) */
+@media (max-width: 576px) {
+    #pg-logo {
+        height: 50px;
+    }
+}
+
+/*(portrait phones) */
+@media (max-width: 375px) {
+    #pg-logo {
+        height: 40px;
+    }
+}
+
 .about {
     background-color: #f9f9f9;
     padding: 30px;
