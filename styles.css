@@ -271,3 +271,9 @@ body, html {
 .feedback-form input[type="submit"]:hover {
     background-color: #c40b0b;
 }
+
+
+footer a:hover {
+    text-decoration: none; 
+    color: blue; 
+}
