@@ -24,25 +24,25 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav" style="margin-right: 360px;">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" style="cursor: pointer;" href="home.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-us-section">About Us</a>
+                        <a class="nav-link" style="cursor: pointer;" onclick="scrollToSection('about-us-section')">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="amenities.html">Amenities</a>
+                        <a class="nav-link" style="cursor: pointer;" onclick="scrollToSection('pricing-section')">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="food.html">Food Menu</a>
+                        <a class="nav-link" style="cursor: pointer;" onclick="scrollToSection('amenities-section')">Amenities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pricing.html">Pricing</a>
+                        <a class="nav-link" style="cursor: pointer;" href="food.html">Food Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="feedback.html">Feedback</a>
+                        <a class="nav-link" style="cursor: pointer;" href="registration.html">Register</a>
                     </li>
                 </ul>
             </div>
@@ -56,22 +56,19 @@
                 <img src="pg1.png" class="d-block w-100" alt="First Slide">
             </div>
             <div class="carousel-item ">
-                <img src="2.jpg" class="d-block w-100" alt="First Slide">
+                <img src="2.jpg" class="d-block w-100" alt="second Slide">
             </div>
             <div class="carousel-item">
-                <img src="3.jpg" class="d-block w-100" alt="First Slide">
+                <img src="3.jpg" class="d-block w-100" alt="third Slide">
             </div>
             <div class="carousel-item">
-                <img src="8.jpg" class="d-block w-100" alt="First Slide">
+                <img src="8.jpg" class="d-block w-100" alt="fourth Slide">
             </div>
             <div class="carousel-item">
-                <img src="banner.png" class="d-block w-100" alt="First Slide">
+                <img src="5.jpg" class="d-block w-100" alt="fifth Slide">
             </div>
             <div class="carousel-item">
-                <img src="5.jpg" class="d-block w-100" alt="First Slide">
-            </div>
-            <div class="carousel-item">
-                <img src="6.jpg" class="d-block w-100" alt="First Slide">
+                <img src="6.jpg" class="d-block w-100" alt="sixth Slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -97,7 +94,76 @@
             </div>
         </div>
     </div>
-    <br>
+    <br><br>
+
+    <!--Pricing Section-->
+    <div id="pricing-section">
+    <h2 style="margin-left: 45%; color: rgb(69, 68, 68);" id="pricing-h2">Pricing:</h2><br>
+
+    <div class="pricing-container">
+        <div class="pricing-card">
+            <img src="pg1.png" alt="Sri Tanuja PG 1">
+            <h3>Sri Tanuja PG 1</h3>
+            <ul>
+                <li>2 sharing - 9000</li>
+                <li>3 sharing - 7000</li>
+                <li>4 sharing - 6300</li>
+            </ul>
+        </div>
+        <div class="pricing-card">
+            <img src="pg2.png" alt="Sri Tanuja PG 2">
+            <h3>Sri Tanuja PG 2</h3>
+            <ul>
+                <li>2 sharing - 9000</li>
+                <li>3 sharing - 7000</li>
+                <li>4 sharing - 6500</li>
+            </ul>
+        </div>
+        <div class="pricing-card">
+            <img src="pg3.png" alt="Sri Tanuja PG 3">
+            <h3>Sri Tanuja PG 3</h3>
+            <ul>
+                <br>
+                <li>3 sharing - 7500</li>
+                <li>4 sharing - 6500</li>
+            </ul><br>
+        </div>
+        <div class="pricing-card">
+            <img src="pg4.png" alt="Sri Tanuja PG 4">
+            <h3>Sri Tanuja PG 4</h3>
+            <ul>
+                <li>2 sharing - 9500</li>
+                <li>3 sharing - 7500</li>
+                <li>4 sharing - 6500</li>
+            </ul>
+        </div>
+    </div></div>
+    
+    <div class="note">
+        <h2>Note:</h2>
+        <p>To reserve your bed, a non-refundable advance payment of 1000/- must be made, which is not included in the fees.</p>
+    </div>
+
+    <!-- Amenities Section -->
+    <div class="container mt-5" id="amenities-section">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li><i class="fas fa-door-closed"></i> Washing Machine</li>
+                        <li><i class="fas fa-tv"></i> TV in Each Room</li>
+                        <li><i class="fas fa-clock"></i> 24-hour Hot Water</li>
+                        <li><i class="fas fa-utensils"></i> Self-Cooking Facility</li>
+                        <li><i class="fas fa-elevator"></i> Lift Available</li>
+                        <li><i class="fas fa-wifi"></i> 24-hour Wi-Fi</li>
+                        <li><i class="fas fa-bolt"></i> Power backup</li>
+                        <li><i class="fas fa-door-closed"></i> Fridge</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><br><br><br>
 
     <!-- Testimonials Section -->
     <div class="container">
@@ -133,23 +199,58 @@
     </div>
 
     <!-- Footer -->
-<footer class="bg-light py-4" style="height: 150px;">
+<footer class="footer bg-dark py-4">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 text-center">
-                <a href="https://www.instagram.com/accounts/login/"><img src="insta.jpg" alt="Instagram" style="height: 30px;"> <span style="color: rgb(48, 48, 2);">Instagram</span></a>
+            <div class="col-md-3 text-center border-right">
+                <div class="pg-item">
+                    <img src="PG_Logo.jpg" alt="PG 1" class="pg-logo">
+                    <span class="pg-name">Tanuja PG 1</span>
+                </div>
+                <p>Contact No: <a href="tel:9985942299">9985942299</a>, <a href="tel:8121880099">8121880099</a></p>
+                <a href="https://maps.app.goo.gl/z6Qzjt1rievNHhGY9" class="pg-link">View Location</a>
             </div>
-            <div class="col-md-4 text-center" style="border-left: 2px solid #ddd; border-right: 2px solid #ddd;">
-                <a href="https://web.whatsapp.com/"><img src="wtsapp.jpg" alt="WhatsApp" style="height: 30px;"> <span style="color: rgb(48, 48, 2);">WhatsApp</span></a>
+            <div class="col-md-3 text-center border-right">
+                <div class="pg-item">
+                    <img src="PG_Logo.jpg" alt="PG 2" class="pg-logo">
+                    <span class="pg-name">Tanuja PG 2</span>
+                </div>
+                <p>Contact No: <a href="tel:9000069099">9000069099</a>, <a href="tel:8121880099">8121880099</a></p>
+                <a href="https://maps.app.goo.gl/qVupYC2ZGwhaufbQA" class="pg-link">View Location</a>
             </div>
-            <div class="col-md-4 text-center">
-                <a href="https://www.facebook.com/"><img src="fb.png" alt="Facebook" style="height: 30px;"> <span style="color: rgb(48, 48, 2);">Facebook</span></a>
+            <div class="col-md-3 text-center border-right">
+                <div class="pg-item">
+                    <img src="PG_Logo.jpg" alt="PG 3" class="pg-logo">
+                    <span class="pg-name">Tanuja PG 3</span>
+                </div>
+                <p>Contact No: <a href="tel:04023051999">040-23051999</a>, <a href="tel:8121880099">8121880099</a></p>
+                <a href="https://maps.app.goo.gl/na9xpiCRgjynC26k7" class="pg-link">View Location</a>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="pg-item">
+                    <img src="PG_Logo.jpg" alt="PG 4" class="pg-logo">
+                    <span class="pg-name">Tanuja PG 4</span>
+                </div>
+                <p>Contact No: <a href="tel:9615033999">9615033999</a>, <a href="tel:8121880099">8121880099</a></p>
+                <a href="https://maps.app.goo.gl/TJi6LzSQ5X5nBECLA" class="pg-link">View Location</a>
             </div>
         </div>
     </div>
 </footer>
 
+<script>
+function scrollToSection(sectionId) {
+    var section = document.getElementById(sectionId);
+    var navbarHeight = document.querySelector('.navbar').offsetHeight;
+    if (section) {
+        var scrollTo = section.offsetTop - navbarHeight;
+        window.scrollTo({ top: scrollTo, behavior: 'smooth' });
+    }
+}
+</script>
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
