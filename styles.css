@@ -71,10 +71,6 @@ body, html {
     margin-right: 360px; 
 }
 
-.navbar-brand{
-    animation: brightdim 3s infinite;
-}
-
 .about {
     background-color: #f9f9f9;
     padding: 30px;
@@ -205,18 +201,6 @@ body, html {
     position: absolute;
     left: 0;
     top: 6px;
-}
-
-@keyframes brightdim {
-    0% {
-        opacity: 0.8;
-    }
-    50% {
-        opacity: 10;
-    }
-    100% {
-        opacity: 0.8;
-    }
 }
 
 .pricing-container {
@@ -434,3 +418,4 @@ body, html {
         border-right: none !important;
     }
 }
+
